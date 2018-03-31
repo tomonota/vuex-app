@@ -1,0 +1,27 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="./build/form.css">
+  </head>
+  <body>
+    <div id="form">
+      <p class="error-message" v-show="display">{{ errorMessage }}</p>
+      <div id="first-name" class="input-info">
+        <input placeholder="姓" v-model="firstName"></input>
+      </div>
+      <div id="last-name" class="input-info">
+        <input placeholder="名" v-model="lastName"></input>
+      </div>
+      <div id="email" class="input-info">
+        <input type="email" placeholder="Eメールアドレス" v-model="email"></input>
+      </div>
+      <div id="password" class="input-info">
+        <input placeholder="パスワード" v-model="password"></input>
+      </div>
+      <div id="password-confirm" class="input-info">
+        <input placeholder="パスワードを確認する" v-model="passwordConfirm"></input>
+      </div>
+      <button @click="submit">アカウント登録</button>
+    </div>
+  </body>
+  <script src="./build/form.build.js"></script>
+</html>

@@ -1,0 +1,48 @@
+#form
+  margin: 0
+  width: 600px
+  margin: 0 auto
+
+  input
+    border: solid 1px #ccc
+    border-radius: 4px 4px
+    color: #000000
+    font-size: 1.0em
+    font-family: Arial, sans-serif
+    margin: 0
+    letter-spacing: 0
+    padding: 10px
+    width: 100%
+    &:focus
+      outline: solid 2px #ccc
+      font-family: Arial, sans-serif
+      font-size: 1.0em
+
+  .input-info
+    margin: 0 0 20px 0
+  #first-name
+    width: 49.5%
+    float: left
+  #last-name
+    width: 49.5%
+    float: right
+
+  button
+    background-color: #2F3437
+    border-radius: 4px 4px
+    display: block
+    font-size: 1.0em
+    color: white
+    width: 50%
+    margin: 0 auto
+    margin-bottom: 20px
+    margin
+    padding: 10px
+
+.error-message
+  background-color: #FFF1F1
+  border-radius: 4px 4px
+  color:#FF4650 !important
+  font-size: 0.8em
+  padding: 10px
+  text-align: center
